@@ -1,0 +1,13 @@
+name: Mods
+version: ${project.version}
+main: coretol.mods.Mods
+api-version: 1.13
+authors: [mirai]
+description: Detect Forge Mods
+website: https://coretol.net
+commands:
+  modlist:
+    description: Get player's modlist
+    usage: /modlist <player>
+    permission: modlist.use
+    permission-message: YOU DON'T HAVE PERMISSION(S) TO USE THIS.
